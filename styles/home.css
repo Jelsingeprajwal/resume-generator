@@ -22,7 +22,9 @@ img {
 }
 
 .m-3  img{
-/* height: 300px; */
+height: 300px;
+max-width: fit-content;
+
 }
 footer {
   height: fit-content;
