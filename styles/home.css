@@ -1,0 +1,43 @@
+:root {
+  --oxford-blue: #050a30ff;
+  --deep-champagne: #fcd0a1ff;
+  --rifle-green: #4b543bff;
+  --beau-blue: #bfdbf7ff;
+  --aquamarine: #5dfdcbff;
+}
+header {
+  /* height: 10vh; */
+  background-color: var(--oxford-blue);
+  color: white;
+}
+img {
+  height: 300px ;
+}
+.btn {
+  width: 60px;
+  background-color: var(--oxford-blue);
+}
+.col-lg-3 span{
+ grid-template-columns: 300px;
+}
+
+.m-3  img{
+/* height: 300px; */
+}
+footer {
+  height: fit-content;
+  background-color: var(--oxford-blue);
+}
+footer p {
+  color: wheat;
+}
+.nav {
+  justify-content: center;
+}
+.nav-link {
+  color: white;
+}
+[class*=" bi-"]::before,
+[class^="bi-"]::before {
+  font-size: 18px;
+}

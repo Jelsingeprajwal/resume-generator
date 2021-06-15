@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+/* font-family: 'EB Garamond', serif; */
+@import url(home.css);
+@import url(Chronological.css);
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}

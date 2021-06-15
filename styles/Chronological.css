@@ -1,0 +1,87 @@
+* {
+  font-size: 12px;
+  line-height: 16px;
+}
+p {
+  font-size: 12px;
+}
+hr {
+  height: 3px;
+  width: 80%;
+  background-color: black;
+  border: none;
+}
+p,
+i,
+span {
+  margin-left: 20px;
+}
+h3 {
+  margin-left: 5px;
+}
+body {
+  margin: 0;
+}
+.resume-1 {
+  /* background-color: rgb(159, 233, 233); */
+  /* width: 80%;
+  margin: 0 10rem; */
+}
+.personal-info {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-content: space-around;
+  align-items: center;
+}
+.personal-info h1 {
+  font-size: 36px;
+  margin-left: 5px;
+}
+.personal-info address p,
+.personal-info address a {
+  /* margin-right: 12px; */
+  margin: 0.5rem;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: right;
+}
+.personal-info address a {
+  float: right;
+}
+.skills h3 {
+  font-size: 16px;
+}
+
+.experience h3 {
+  font-size: 16px;
+}
+.exp-item {
+  display: block;
+}
+.exp-item p:nth-child(2){
+  font-size: 9px;
+}
+.company-name {
+  font-weight: bold;
+}
+.time-period {
+  font-weight: lighter;
+  font-size: x-small;
+}
+.education h3 {
+  font-size: 16px;
+}
+.school-name {
+  font-weight: bold;
+}
+.projects h3 {
+  font-size: 16px;
+}
+.project-name {
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.awards h3 {
+  font-size: 16px;
+}
